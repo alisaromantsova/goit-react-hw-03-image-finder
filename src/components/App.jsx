@@ -7,8 +7,10 @@ import css from './App.module.css';
 import axios from 'axios';
 import Notiflix from 'notiflix';
 import { Audio } from 'react-loader-spinner';
+
 const BASEURL = 'https://pixabay.com/api/';
 const KEY = '34327121-8f2f868c5eb1d27b3154ab1d3';
+
 export class App extends Component {
   state = {
     search: '',
